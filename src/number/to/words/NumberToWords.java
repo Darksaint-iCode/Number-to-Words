@@ -41,21 +41,21 @@ public class NumberToWords {
         System.out.println("\nLength of your Number is: " + length);
         System.out.println("");
         if(length == 1){
-            System.out.println("Form: " + valueIn[28]);
+            System.out.println("Unit Form is: " + valueIn[28]);
         }else if(length == 2){
-            System.out.println("Form: " + valueIn[10]);
+            System.out.println("Unit Form is: " + valueIn[10]);
         }else if(length == 3){
-            System.out.println("Form: " + valueIn[29]);
+            System.out.println("Unit Form is: " + valueIn[29]);
         }else if(length == 4){
-            System.out.println("Form: " + valueIn[30]);
+            System.out.println("Unit Form is: " + valueIn[30]);
         }else if(length == 5){
-            System.out.println("Form: " + valueIn[31]);
+            System.out.println("Unit Form is: " + valueIn[31]);
         }else if(length == 6){
-            System.out.println("Form: " + valueIn[32]);
+            System.out.println("Unit Form is: " + valueIn[32]);
         }else if(length == 7){
-            System.out.println("Form: " + valueIn[33]);
+            System.out.println("Unit Form is: " + valueIn[33]);
         }else{
-            System.out.println("Form Unknown :(");
+            System.out.println("Unit Form is Unknown :(");
         }
         System.out.println("");
     }
@@ -163,9 +163,9 @@ public class NumberToWords {
 //            System.out.println("In Word: " + valueIn[27]);
 //        }
 //        //Fix
-////        else if(length == 2 && digitC == 1){
-////            System.out.println("In Word: " + valueIn[1] + " " + valueIn[28]);
-////        }
+//        else if(length == 2 && digitC == 1){
+//            System.out.println("In Word: " + valueIn[1] + " " + valueIn[28]);
+//        }
 //        else{
 //            System.out.println("Issue getting word :(");
 //        } 
